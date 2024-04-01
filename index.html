@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+        }
+        body {
+            margin: 0 auto;
+        }
+        header {
+            background-color: #fdd6ea;
+            height: 150px;
+            top: 0;
+        }
+        ul {
+            width: 100%;
+            list-style-type: none;
+            margin: auto;
+            padding: 0;
+            background-color: #e80505;
+        }
+        li {
+            float: left;
+            background-color: #c1166e;
+            width: 25%;
+            display: block;
+            color: #fff;
+            padding: 8px 16px;
+            text-decoration: none;
+            text-align: center;
+        } 
+        td{
+            padding: 10px;
+        }
+        h1 {
+            padding: 50px;
+            text-align: center;
+            color: #890252;
+        }
+        section {            
+            padding: 0 45px 0 45px;
+        }
+        footer {
+            background-color: #c1166e;
+            color: #fff;
+            padding: 20px;
+            font-size: medium;
+        }
+        footer table {
+            width: 100%;
+        }
+        footer table tr td h2, footer table tr td p {
+            text-align: center;
+        }
+        img {
+            width: 30px;
+            margin-right: 10px;
+        }
+        .fontetop {
+            font-size: 5rem;
+            padding-top: 50px;
+            text-align: center;
+            color: #890252;
+        }
+        .menu {
+            display: block;
+            margin-bottom: 85px;
+        }
+        /*estilização dos links da classe menu e footer*/
+        .menu ul li a, footer table tr td a {
+            display: block;
+            color: #fff;
+            padding: 8px 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+        #sobre {            
+            text-align: justify;
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+        #sobre p {
+            padding: 10px 0 10px 0;
+        }
+        #formacoes {
+            background-color: #fdd6ea;
+            clear: both;
+            margin: 0 auto;
+            border-radius: 20px;
+            padding-bottom: 30px;
+        }
+        #formacoes h3, #formacoes span, #contatos table tr th {
+            color: #414041;
+        }
+        #portfolio {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        /*estilização do link dentro da sessão portfolio*/
+        #portfolio div a {
+            display: block;
+            padding: 8px 16px;
+            text-decoration: none;
+            text-align: center;
+            font-size: large;
+            color: #414041;
+        }
+        .habilidades {
+            background-color: #c1166e;
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+            display: inline-flex;
+            color: #fff;
+            padding: 15px;
+            align-items: center;
+        }
+        /*estilização do botão submit do form*/
+        #contatos table tr td input[type=submit] {
+            background-color: #c1166e;
+            color: #fff;
+            border: #f3ac13;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+            margin: 0 auto;
+        }        
+        #contatos table {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p class="fontetop">Mariana Starkonski</p>
+    </header>
+    <div class="menu">
+        <ul>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#formacoes">FORMAÇÕES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contatos">CONTATOS</a></li>
+        </ul>
+    </div>
+
+    <!-- sessão que fala mais sobre mim -->
+    <section id="sobre">
+        <div>
+            <h1>SOBRE MIM</h1>
+        </div>
+
+        <p>Permita-me apresentar-me como um profissional apaixonado e orientado para resultados, pronto para contribuir significativamente para o sucesso de sua equipe. Com uma formação acadêmica sólida em Laravel/PHP e uma trajetória profissional marcada por desafios superados e resultados concretos, estou entusiasmado em explorar oportunidades de colaboração dentro de sua organização.</p>
+
+        <p>Minha jornada profissional tem sido alimentada por uma combinação de educação formal e experiência prática. Durante meus estudos, mergulhei profundamente nas nuances da tecnologia, desenvolvendo uma base sólida de conhecimento teórico que pude aplicar em situações do mundo real. Essa base acadêmica robusta foi complementada por experiências práticas em agências de publicidade, onde tive a oportunidade de enfrentar desafios complexos e adquirir habilidades valiosas, como pensamento crítico, resolução de problemas e colaboração em equipe.</p>
+
+        <p>Um dos meus pontos fortes é minha capacidade de adaptar-me a diferentes ambientes e contextos rapidamente. Isso foi demonstrado em projetos anteriores, onde fui capaz de assimilar novas informações e habilidades rapidamente, garantindo que eu pudesse contribuir efetivamente desde o início. Minha abordagem proativa e minha atitude positiva me permitem enfrentar desafios com confiança, buscando sempre soluções inovadoras e eficazes.</p>
+
+        <p>Além disso, sou um comunicador habilidoso, capaz de articular ideias complexas de forma clara e persuasiva. Acredito firmemente na importância da comunicação eficaz dentro de uma equipe, e estou comprometido em promover um ambiente de trabalho colaborativo e inclusivo, onde todas as vozes são ouvidas e valorizadas.</p>
+
+        <p>Estou entusiasmado com a possibilidade de trazer minhas habilidades e experiências para sua equipe e estou ansioso para contribuir para o sucesso contínuo de sua organização. Agradeço sinceramente a oportunidade de considerar meu perfil e espero ansiosamente discutir como posso agregar valor ao seu time em uma entrevista pessoal.</p>
+    </section>
+
+    <!-- sessão que fala sobre minhas formações e idiomas -->
+    <section id="formacoes">
+        <div>
+            <h1>MINHAS FORMAÇÕES</h1>
+        </div>
+        <h3>Graduação em Análise e Desenvolvimento de Sistemas: Tecnologia</h3>
+        <span>08/2023 - <strong>Uninter</strong> - Curitiba/PR</span><br>
+        <span><strong>Status:</strong> Cursando</span>        
+        <div>
+            <h1>IDIOMAS</h1>
+        </div>
+        <span><strong>Inglês: </strong>Intermediário</span><br>
+        <span><strong>Japonês: </strong>Intermediário</span><br>
+    </section>
+
+    <!-- sessão que fala sobre meu portfolio -->
+    <section id="portfolio">
+        <div class="habilidades">
+            <span><strong>PHP</strong></span>
+        </div>
+        <div class="habilidades">
+            <span><strong>Laravel</strong></span>
+        </div>
+        <div class="habilidades">
+            <span><strong>JavaScript</strong></span>
+        </div>
+        <div class="habilidades">
+            <span><strong>JQuery</strong></span>
+        </div>
+        <div class="habilidades">
+            <span><strong>SQL</strong></span>
+        </div>
+        <div class="habilidades">
+            <span><strong>GitHub</strong></span>
+        </div>
+        <div>
+            <h1>MEU PORTFOLIO</h1>
+            <a href="https://app.herosacademy.com.br/login" target="_blank"><strong>Hero's Academy</strong> - Área do aluno</a>
+            <a href="https://app.herosacademy.com.br/admin/login" target="_blank"><strong>Hero's Academy</strong> - Área administrativa</a>
+            <a href="https://app.probono.org.br/login" target="_blank"><strong>Instituto Probono</strong> - Área administrativa</a>
+        </div>
+    </section>
+
+    <!-- sessão que informa sobre meus contatos -->
+    <section id="contatos">
+        <form>
+            <div><h1>ENTRE EM CONTATO COMIGO</h1></div>
+            <table>               
+                <tr>
+                    <th>Nome</th>
+                    <td><input type="text" size="50"></td>
+                </tr>                
+                <tr>
+                    <th>E-mail</th>
+                    <td><input type="email" size="50"></td>
+                </tr>
+                <tr>
+                    <th>Mensagem:</th>
+                    <td><textarea rows="5" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://wa.me/+5541991686856" target="_blank"><img src="whatsapp.png">(41) 99168-6856</a>
+                </td>
+                <td>
+                    <a href="mailto:mstarkonski@gmail.com.br" target="_blank"><img src="email.png">mstarkonski@gmail.com.br</a>
+                </td>
+                <td>
+                    <a href="https://www.linkedin.com/in/mariana-starkonski-a1069b82/" target="_blank"><img src="linkedin.png">
+                    www.linkedin.com/in/mariana-starkonski-a1069b82</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><p>Layout desenvolvido para fins educacionais</p></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>
